@@ -1,6 +1,6 @@
 'use strict';
 
-const request     = require('superagent');
+const request = require('superagent');
 
 exports.getDailyQuote = async () => {
 
