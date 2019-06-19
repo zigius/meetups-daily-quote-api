@@ -1,3 +1,8 @@
 ---
 sqs:
   url: http://localhost:4576/queue/iron_queue
+  options:
+    endpoint: "http://localstack:4576"
+    accessKeyId: abc
+    secretAccessKey: abc
+    region: us-east-1
