@@ -16,6 +16,7 @@ exports.sendMessage = async (type, content) => {
 
     try {
         await sqs.sendMessage(params).promise();
+          console.log('message sent to queue', params);
     } catch (error) {
         console.error(error);
     }

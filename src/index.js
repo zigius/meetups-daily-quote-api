@@ -18,6 +18,8 @@ router.post('/send', async (ctx) => {
         to,
         dailyQuote
     });
+    ctx.body   = { message: 'OK' };
+    ctx.status = 200;
 });
 
 app

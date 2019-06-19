@@ -3,5 +3,6 @@ server:
   port: 3010
 
 sqs:
+  url: http://localhost:4576/queue/iron_queue
   options:
     region: us-east-1
