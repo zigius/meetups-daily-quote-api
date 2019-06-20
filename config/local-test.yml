@@ -8,4 +8,4 @@ sqs:
     region: us-east-1
 
 quotesRest:
-  url: localhost:8082
+  url: localhost:8083

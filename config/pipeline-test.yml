@@ -8,4 +8,4 @@ sqs:
     region: us-east-1
 
 quotesRest:
-  url: fakehttpserver:8082
+  url: fakehttpserver:8083
