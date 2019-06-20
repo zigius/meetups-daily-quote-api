@@ -6,3 +6,6 @@ sqs:
     accessKeyId: abc
     secretAccessKey: abc
     region: us-east-1
+
+quotesRest:
+  url: fakehttpserver:8082

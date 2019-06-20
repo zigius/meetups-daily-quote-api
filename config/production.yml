@@ -1,3 +1,6 @@
 ---
 sqs:
   url: http://iron:4576/queue/iron_queue
+
+quotesRest:
+  url: https://quotes.rest
