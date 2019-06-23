@@ -18,6 +18,7 @@ router.post('/send', async (ctx) => {
         to,
         dailyQuote
     });
+    console.log(`sent quote to queue. to: ${to}`);
     ctx.body   = { message: 'OK' };
     ctx.status = 200;
 });

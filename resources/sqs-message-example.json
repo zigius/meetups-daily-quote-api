@@ -1,0 +1,7 @@
+{
+  "type": "SEND_DAILY_QUOTE",
+  "content": {
+    "to": "zig@gmail.com",
+    "dailyQuote": "You are awesome! Rami Moshe"
+  }
+}
