@@ -1,6 +1,6 @@
 ---
 sqs:
-  url: http://localhost:4576/queue/iron_queue
+  url: http://localhost:4576/queue/daily_quote_queue
   options:
     endpoint: "http://localstack:4576"
     accessKeyId: abc

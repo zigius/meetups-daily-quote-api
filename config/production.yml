@@ -1,6 +1,6 @@
 ---
 sqs:
-  url: http://iron:4576/queue/iron_queue
+  url: https://sqs.us-east-1.amazonaws.com/888476237488/daily_quote_queue
 
 quotesRest:
   url: https://quotes.rest
